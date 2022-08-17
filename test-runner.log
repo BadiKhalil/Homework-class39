@@ -1,0 +1,206 @@
+2022-08-16 10:49:00 info: ------------------------------------------------------
+2022-08-16 10:49:00 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-08-16 10:49:00 info: ------------------------------------------------------
+2022-08-16 10:49:02 info: All unit tests passed.
+2022-08-16 10:49:05 info: All steps were completed successfully
+2022-08-16 12:01:07 info: -------------------------------------------------
+2022-08-16 12:01:07 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:01:07 info: -------------------------------------------------
+2022-08-16 12:01:09 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (2 ms)
+    × should compute the earnings as a formatted Euro amount (3 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€NaN"
+
+      49 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      50 |     const expected = '€187.50';
+    > 51 |     expect(result).toBe(expected);
+         |                    ^
+      52 |   });
+      53 | });
+      54 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:51:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.425 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-08-16 12:01:12 error: *** Spell Checker Report ***
+
+ex2-mondaysWorth.test.js:36:58 - Unknown word (currentvalue)
+ex2-mondaysWorth.test.js:36:89 - Unknown word (currentvalue)
+
+2022-08-16 12:02:18 info: -------------------------------------------------
+2022-08-16 12:02:18 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:02:18 info: -------------------------------------------------
+2022-08-16 12:02:20 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (2 ms)
+    × should compute the earnings as a formatted Euro amount (2 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€NaN"
+
+      49 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      50 |     const expected = '€187.50';
+    > 51 |     expect(result).toBe(expected);
+         |                    ^
+      52 |   });
+      53 | });
+      54 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:51:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.415 s, estimated 1 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-08-16 12:04:08 info: Disclaimer turned off
+2022-08-16 12:04:16 info: -------------------------------------------------
+2022-08-16 12:04:16 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:04:16 info: -------------------------------------------------
+2022-08-16 12:04:18 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (1 ms)
+    × should compute the earnings as a formatted Euro amount (2 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€ + 187.50"
+
+      49 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      50 |     const expected = '€187.50';
+    > 51 |     expect(result).toBe(expected);
+         |                    ^
+      52 |   });
+      53 | });
+      54 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:51:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.411 s, estimated 1 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-08-16 12:05:00 info: -------------------------------------------------
+2022-08-16 12:05:00 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:05:00 info: -------------------------------------------------
+2022-08-16 12:05:02 info: All unit tests passed.
+2022-08-16 12:05:04 info: All steps were completed successfully
+2022-08-16 12:05:24 info: -------------------------------------------------
+2022-08-16 12:05:24 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:05:24 info: -------------------------------------------------
+2022-08-16 12:05:26 info: All unit tests passed.
+2022-08-16 12:05:29 info: All steps were completed successfully
+2022-08-16 12:07:41 info: -------------------------------------------------
+2022-08-16 12:07:41 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:07:41 info: -------------------------------------------------
+2022-08-16 12:07:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (2 ms)
+    × should compute the earnings as a formatted Euro amount (3 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€NaN"
+
+      49 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      50 |     const expected = '€187.50';
+    > 51 |     expect(result).toBe(expected);
+         |                    ^
+      52 |   });
+      53 | });
+      54 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:51:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.335 s, estimated 1 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-08-16 12:08:25 info: -------------------------------------------------
+2022-08-16 12:08:25 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-16 12:08:25 info: -------------------------------------------------
+2022-08-16 12:08:27 info: All unit tests passed.
+2022-08-16 12:08:30 info: All steps were completed successfully
+2022-08-16 12:29:27 info: ------------------------------------------
+2022-08-16 12:29:27 info: >>> Running Unit Test `ex4-observable` <<<
+2022-08-16 12:29:27 info: ------------------------------------------
+2022-08-16 12:29:29 info: All unit tests passed.
+2022-08-16 12:29:32 info: All steps were completed successfully
+2022-08-16 12:49:30 info: --------------------------------------
+2022-08-16 12:49:30 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-08-16 12:49:30 info: --------------------------------------
+2022-08-16 12:49:32 info: All unit tests passed.
+2022-08-16 12:49:35 info: All steps were completed successfully
+2022-08-17 11:43:30 info: ----------------------------------------------
+2022-08-17 11:43:30 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2022-08-17 11:43:30 info: ----------------------------------------------
+2022-08-17 11:43:33 info: All unit tests passed.
+2022-08-17 11:43:35 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:19 - Unknown word (Badi)
+
+2022-08-17 11:47:13 info: ----------------------------------------
+2022-08-17 11:47:13 info: >>> Running Unit Test `ex2-dogYears` <<<
+2022-08-17 11:47:13 info: ----------------------------------------
+2022-08-17 11:47:15 info: All unit tests passed.
+2022-08-17 11:47:18 info: All steps were completed successfully
+2022-08-17 12:07:05 info: -------------------------------------------
+2022-08-17 12:07:05 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2022-08-17 12:07:05 info: -------------------------------------------
+2022-08-17 12:07:07 info: All unit tests passed.
+2022-08-17 12:07:10 error: *** Spell Checker Report ***
+
+ex3-tellFortune.js:40:37 - Unknown word (loca)
+ex3-tellFortune.js:43:35 - Unknown word (loca)
+

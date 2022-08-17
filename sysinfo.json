@@ -1,0 +1,31 @@
+{
+  "node": "v16.16.0",
+  "system": {
+    "manufacturer": "Micro-Star International Co., Ltd",
+    "model": "MS-7C02"
+  },
+  "cpu": {
+    "manufacturer": "AMD",
+    "brand": "Ryzen 5 3600 6-Core Processor",
+    "speed": 3.6
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19044"
+  },
+  "vscodeInfo": {
+    "version": "1.70.1",
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-close-tag",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "vscode-icons-team.vscode-icons",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {}
+  }
+}

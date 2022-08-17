@@ -37,18 +37,29 @@ function selectRandomly(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
 
-function tellFortune(numKids, partnerNames,locations,jobTitles) {
-  return `You will be a ${selectRandomly(jobTitles)} in ${selectRandomly(locations)}, married to ${selectRandomly(partnerNames)} with ${selectRandomly(numKids)} kids.`
+function tellFortune(kids, partner, loca, jobs) {
+  const kidsNumber = selectRandomly(kids);
+  const partnerName = selectRandomly(partner);
+  const location = selectRandomly(loca);
+  const job = selectRandomly(jobs);
+
+  return `You will be a ${job} in ${location}, married to ${partnerName} with ${kidsNumber} kids.`;
 }
 
 function main() {
-  const numKids = [5,7,3,1,2];
+  const numKids = [5, 7, 3, 1, 2];
 
-  const partnerNames = ['Lisa','Mia','Chloe','Hannah','Natalie'];
+  const partnerNames = ['Lisa', 'Mia', 'Chloe', 'Hannah', 'Natalie'];
 
-  const locations = ['Amsterdam','Rome','Paris','London','Las Vegas' ];
+  const locations = ['Amsterdam', 'Rome', 'Paris', 'London', 'Las Vegas'];
 
-  const jobTitles = ['Pharmacist','Singer','Programmer','Streamer','Painter'];
+  const jobTitles = [
+    'Pharmacist',
+    'Singer',
+    'Programmer',
+    'Streamer',
+    'Painter',
+  ];
 
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
   console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

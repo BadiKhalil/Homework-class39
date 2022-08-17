@@ -1,0 +1,5 @@
+
+*** Spell Checker Report ***
+
+ex3-tellFortune.js:40:37 - Unknown word (loca)
+ex3-tellFortune.js:43:35 - Unknown word (loca)
